@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: external_source
     meta:
-      external_location: "s3://us-prd-motherduck-open-datasets/parquet/who_ambient_air_quality/{name}.parquet"
+      external_location: "s3://us-prd-motherduck-open-datasets/who_ambient_air_quality/parquet/{name}.parquet"
     tables:
       - name: who_ambient_air_quality_database_version_v6_april_2023
 
